@@ -1,4 +1,5 @@
-\ProvidesClass{lincoln}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{lincoln}[2017/10/26 UoL Class]
 %\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}% or whatever
 \ProcessOptions\relax
 %
