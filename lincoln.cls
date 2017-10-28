@@ -1,11 +1,12 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{lincoln}[2017/10/26 UoL Class]
-%\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}% or whatever
+
 \ProcessOptions\relax
-%
+
 \LoadClass[a4paper]{article}
-\usepackage[style=authoryear, natbib, hyperref]{biblatex}
-\usepackage{fancyhdr}
+
+\RequirePackage[style=authoryear, natbib, hyperref]{biblatex}
+\RequirePackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{pdfpages}
@@ -14,7 +15,7 @@
 \usepackage[british]{babel}
 
 \pagestyle{fancy}
-\lhead{CMP3060M Project Proposal}
+\lhead{Report title}
 \rhead{}
 \lfoot{SEW13467556 Derek Sewell}
 \cfoot{}
