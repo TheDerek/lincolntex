@@ -1,6 +1,5 @@
 # Custom
 Makefile
-report.pdf
 *.bak
 *.sav
 *.fdb_latexmk
