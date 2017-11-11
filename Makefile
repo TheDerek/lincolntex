@@ -1,6 +1,9 @@
 report: report.tex
 	latexmk -pdf report.tex
-	
+
+live:
+	latexmk -pdf -pvc
+
 show: report
 	xdg-open report.pdf
 
