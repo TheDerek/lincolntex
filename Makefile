@@ -13,6 +13,11 @@ count:
 countlive:
 	watch -n1 texcount report.tex
 
+edit:
+	nvim-qt report.tex
+	make show
+	make live
+
 clean:
 	latexmk -C
 	rm -f report.bbl
